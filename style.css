@@ -297,6 +297,47 @@ input{
     margin: 15px 5px;
 }
 
+/* Team Section */
+.team{
+    margin: 50px 0;
+}
+.team-content{
+    text-align: center;
+}
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 20px;
+}
+.trainer-img{
+    width: 320px;
+    height: 270px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+}
+.trainer-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.trainer-info{
+    margin-top: -70px;
+    margin-left: 20px;
+}
+.trainer-name{
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
 
 
 /* Responsive for small devices */
@@ -358,6 +399,10 @@ input{
 
     .habit{
         margin-top: 550px;
+    }
+
+    .team-img{
+        grid-template-columns: repeat(1, 1fr);
     }
     
 
