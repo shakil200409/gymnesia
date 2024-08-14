@@ -23,6 +23,10 @@ body {
     font-weight: 900;
     margin-bottom: 20px;
 }
+.section-description{
+    color: rgba(255, 255, 255, 0.502);
+    margin-bottom: 30px;
+}
 
 /* Display Layout */
 .d-flex {
@@ -194,6 +198,36 @@ body {
     margin-bottom: 10px;
 }
 
+/* Run an extra mile */
+.extra-mile{
+    margin: 50px 0;
+    width: 100%;
+    background: rgba(34, 34, 34, 1);
+    border-radius: 35px;
+}
+.run-content{
+    width: 100%;
+    padding: 30px;
+}
+.run-img{
+    width: 100%;
+    padding: 30px;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.run-content button{
+    padding: 15px 70px;
+    
+}
+
+/* Trainings and Exercises */
+.training-content{
+    width: 70%;
+}
+
 
 /* Responsive for small devices */
 @media screen and (max-width: 574px) {
@@ -201,13 +235,15 @@ body {
         font-size: 2rem;
     }
     .banner,
-    .habit-container{
+    .habit-container,
+    .extra-mile{
         flex-direction: column;
 
     }
     .banner-content,
     .banner-img,
-    .habit-content{
+    .habit-content,
+    .run-content button{
         width: 100%;
     }
     .banner-heading{
@@ -249,7 +285,7 @@ body {
     }
 
     .habit{
-        margin-top: 250px;
+        margin-top: 550px;
     }
     
 
