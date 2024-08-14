@@ -200,7 +200,7 @@ body {
 
 /* Run an extra mile */
 .extra-mile{
-    margin: 50px 0;
+    margin-top: 50px;
     width: 100%;
     background: rgba(34, 34, 34, 1);
     border-radius: 35px;
@@ -224,9 +224,79 @@ body {
 }
 
 /* Trainings and Exercises */
+.training{
+    margin-top: 50px;
+}
 .training-content{
     width: 70%;
 }
+
+/* BMI Calculator */
+.bmi{
+    margin-top: 50px;
+}
+.bmi-content{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.bmi-container{
+    background: rgba(34, 34, 34, 1);;
+    margin-left: -8.7%;
+    margin-right: -8.7%;
+    padding: 25px 8.7%;
+    
+}
+.bmi-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 30px 0;
+}
+.calculator-chart{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.calculator-chart .bmi-title{
+    margin-bottom: 50px;
+}
+.calculator{
+    width: 100%;
+}
+.bmi-table{
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    text-align: left;
+    
+}
+.bmi-data{
+    font-size: 0.885rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input{
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 45%;
+}
+#last-input{
+    width: 93%;
+}
+
+.calculator button{
+    width: 40%;
+    padding: 10px 0;
+    margin: 15px 5px;
+}
+
 
 
 /* Responsive for small devices */
@@ -236,14 +306,16 @@ body {
     }
     .banner,
     .habit-container,
-    .extra-mile{
+    .extra-mile,
+    .bmi-container{
         flex-direction: column;
 
     }
     .banner-content,
     .banner-img,
     .habit-content,
-    .run-content button{
+    .run-content button,
+    .bmi-content{
         width: 100%;
     }
     .banner-heading{
