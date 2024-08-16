@@ -232,12 +232,38 @@ body {
   padding: 15px 70px;
 }
 
-/* Trainings and Exercises */
-.training {
+/* Feature Styles here */
+.feature-content{
+  text-align: center;
 }
-.training-content {
-  width: 70%;
+.feature-container{
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
 }
+.feature-card{
+  height: 220px;
+  width: 30%;
+  border: 1px solid #efede8a6;
+  border-radius: 10px;
+  padding: 30px;
+}
+.card-icon{
+  width: 50px;
+  height: 50px;
+  background-color: #e6533c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.feature-card p{
+  margin-bottom: 10px;
+}
+
+
+
 
 /* BMI Calculator */
 .bmi-content {
@@ -402,12 +428,14 @@ hr{
   .habit-container,
   .extra-mile,
   .bmi-container,
-  .about {
+  .about,
+  .feature-container {
     flex-direction: column;
   }
   .header,
   .habit-content,
-  .bmi-content {
+  .bmi-content,
+  .feature-card {
     width: 100%;
   }
 
